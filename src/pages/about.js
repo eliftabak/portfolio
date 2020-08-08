@@ -8,7 +8,7 @@ import "./about.css"
 const AboutPage = () => {
   const query = useStaticQuery(graphql`
     query {
-      elif: file(relativePath: { eq: "eliftabak.jpg" }) {
+      elif: file(relativePath: { eq: "elif.jpeg" }) {
         childImageSharp {
           fluid(maxWidth: 1000, quality: 100) {
             ...GatsbyImageSharpFluid
@@ -28,7 +28,7 @@ const AboutPage = () => {
     <Layout className="about">
       <SEO title="About Me" description="Currently, I'm pursuing a Bachelor's degree in Web Programming and Design, as well as a certificate in Entrepreneurship at Purdue University." />
       <div className="contain-md my-8 md:my-16">
-        <Img fluid={query.elif.childImageSharp.fluid} />
+        <Img className="elifImage" fluid={query.elif.childImageSharp.fluid} />
       </div>
       <div className="contain-sm">
         <h1 className="flex items-center text-3xl md:text-4xl md:text-5xl">
