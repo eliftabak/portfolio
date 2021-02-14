@@ -1,5 +1,10 @@
 module.exports = {
-  purge: [],
+  purge: {
+    content: ['./src/**/*.{js,jsx,ts,tsx}'],
+    options: {
+      safelist: ['bg-red-200', 'bg-yellow-200', 'bg-purple-200', 'bg-blue-200'],
+    },
+  },
   theme: {
     extend: {
       colors: {
@@ -18,6 +23,11 @@ module.exports = {
       heading: ['DM Serif Display', 'serif'],
     },
   },
-  variants: {},
+  variants: {
+    extend: {
+      // ...
+      backgroundColor: ['active'],
+    },
+  },
   plugins: [],
 };

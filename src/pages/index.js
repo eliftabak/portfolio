@@ -8,7 +8,7 @@ import SEO from './../components/seo';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Full Stack Developer" description="Elif Tabak &mdash; Full Stack Developer based in Istanbul, Turkey." />
+    <SEO title="Front-end Developer" description="Elif Tabak &mdash; Front-end Developer based in Istanbul, Turkey." />
     <section className="contain mt-16 mb-32 md:my-32">
       <div className="inline-block bg-green-100 rounded px-4 py-2 mb-8 shadow-inner">
         <div className="flex items-center">
@@ -17,7 +17,7 @@ const IndexPage = () => (
           <span className="text-sm md:text-base text-green-500">Open to new opportunities.</span>
         </div>
       </div>
-      <h1 className="text-3xl md:text-5xl">Elif Tabak &mdash; Full Stack Developer based in Istanbul, Turkey.</h1>
+      <h1 className="text-3xl md:text-5xl">Elif Tabak &mdash; Front-end Developer based in Istanbul, Turkey.</h1>
       <p className="text-mdgray my-8 md:text-lg max-w-2xl">Flatiron School graduate who's focused on building high-quality, thoughtful, and intuitive websites and web applications.</p>
       <div>
         <Link className="link md:text-lg" to="/about">
