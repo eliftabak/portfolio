@@ -47,7 +47,7 @@ const Header = (props) => {
     <header className={`sticky top-0 z-50 bg-white py-6 ${scrolling ? 'border-b border-border mt-0' : 'mt-4'}`}>
       <div className="contain flex items-center justify-between">
         <Link className={`font-heading text-xl tracking-wider z-50 transition-colors duration-300 ${isActive ? 'text-white' : 'text-primary'}`} to="/" onClick={isActive ? toggleMobileMenu : null}>
-          Elif Tabak
+          Elif Chorghay
         </Link>
         <div role="button" tabIndex={0} className={`hamburger relative block z-50 pointer focus:outline-none ${isActive ? 'active' : ''}`} onClick={toggleMobileMenu} onKeyDown={(evt) => evt.keyCode === 13 && setIsActive(!isActive)}>
           <div className="bg-primary"></div>
@@ -65,7 +65,7 @@ const Header = (props) => {
             <Link to="/contact" className={`mb-8 hover:text-white ${location.pathname === '/contact' ? 'text-white active' : 'text-offgray'}`} onClick={isActive ? toggleMobileMenu : null}>
               Contact
             </Link>
-            <a className="mb-8 text-offgray hover:text-white" href={'/pdfs/ElifsResume.pdf'} target="_blank" rel="noopener noreferrer" onClick={isActive ? toggleMobileMenu : null}>
+            <a className="mb-8 text-offgray hover:text-white" href={'/pdfs/ElifResume.pdf'} target="_blank" rel="noopener noreferrer" onClick={isActive ? toggleMobileMenu : null}>
               Resume
             </a>
           </div>

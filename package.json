@@ -1,9 +1,9 @@
 {
   "name": "portfolio",
   "private": true,
-  "description": "Elif Tabak's 2020 Portfolio",
+  "description": "Elif Chorghay's 2023 Portfolio",
   "version": "0.1.0",
-  "author": "Elif Tabak <eliftabak01@gmail.com>",
+  "author": "Elif Chorghay <elifchorghay@gmail.com>",
   "dependencies": {
     "autoprefixer": "^9.8.0",
     "gatsby": "^2.21.33",

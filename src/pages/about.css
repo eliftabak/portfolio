@@ -5,7 +5,7 @@
 }
 
 li {
- filter: grayscale(100%);
+ filter: grayscale(150%);
  cursor: pointer;
 }
 
@@ -14,5 +14,7 @@ li:hover {
 }
 
 .elifImage {
- height: fit-content;
+  width: auto;
+  height: auto;
+  object-fit: fill;
 }

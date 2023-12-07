@@ -8,8 +8,8 @@ import SEO from './../components/seo';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Front-end Developer" description="Elif Tabak &mdash; Front-end Developer based in Istanbul, Turkey." />
-    <section className="contain mt-16 mb-32 md:my-32">
+    <SEO title="Web Developer Elif Chorghay" description="Elif Chorghay &mdash; WebDeveloper based in Karlsruhe, Germany." />
+    <section className="contain mb-32 md:mb-24 md:mt-20">
       <div className="inline-block bg-green-100 rounded px-4 py-2 mb-8 shadow-inner">
         <div className="flex items-center">
           {' '}
@@ -17,8 +17,8 @@ const IndexPage = () => (
           <span className="text-sm md:text-base text-green-500">Open to new opportunities.</span>
         </div>
       </div>
-      <h1 className="text-3xl md:text-5xl">Elif Tabak &mdash; Front-end Developer based in Istanbul, Turkey.</h1>
-      <p className="text-mdgray my-8 md:text-lg max-w-2xl">Flatiron School graduate who's focused on building high-quality, thoughtful, and intuitive websites and web applications.</p>
+      <h1 className="text-3xl md:text-5xl">Elif Chorghay &mdash; Web Developer based in Karlsruhe, Germany.</h1>
+      <p className="text-mdgray my-8 md:text-lg max-w-2xl">Experienced Web Developer Specializing in Fintech and E-commerce Solutions &mdash; Creating Intuitive, High-Performance Web Applications.</p>
       <div>
         <Link className="link md:text-lg" to="/about">
           Learn more about me <span className="arrow">-&gt;</span>
