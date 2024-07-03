@@ -26,7 +26,7 @@ const AboutPage = () => {
   `);
   return (
     <Layout className="about">
-      <SEO title="About Me" description="Currently, I'm pursuing a Bachelor's degree in Web Programming and Design, as well as a certificate in Entrepreneurship at Purdue University." />
+      <SEO title="About Me" description="I'm Elif Chorghay, a Web Developer with a specialized focus in fintech and e-commerce." />
       <div className="contain-md my-8 md:my-16">
         <Img className="elifImage" fluid={query.elif.childImageSharp.fluid} />
       </div>
