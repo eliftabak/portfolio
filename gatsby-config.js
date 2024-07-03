@@ -52,7 +52,7 @@ module.exports = {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
         host: `https://elifchorghay.netlify.app/`,
-        sitemap: `https://elifchorghay.netlify.app/sitemap.xml`,
+        sitemap: `https://elifchorghay.netlify.app/sitemap-index.xml`,
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
