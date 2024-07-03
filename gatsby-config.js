@@ -42,7 +42,20 @@ module.exports = {
         tailwind: true
       }
     },
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: `https://elifchorghay.netlify.app/`,
+        sitemap: `https://elifchorghay.netlify.app/sitemap.xml`,
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
 
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
