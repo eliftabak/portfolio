@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Elif Chorghay`,
+    siteUrl: `https://elifchorghay.netlify.app/`,
     description: `Frontend Developer with a specialized focus in fintech and e-commerce.`,
     author: `@elifchorghay`,
   },
