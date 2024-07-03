@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Elif Tabak Chorghay`,
-    description: ``,
+    title: `Elif Chorghay`,
+    description: `Frontend Developer with a specialized focus in fintech and e-commerce.`,
     author: `@elifchorghay`,
   },
   plugins: [
@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/icon1.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon1.png`,
       },
     },
     {
