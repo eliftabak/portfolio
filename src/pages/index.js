@@ -8,7 +8,7 @@ import SEO from './../components/seo';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Web Developer | Elif Chorghay" description="Elif Chorghay &mdash; WebDeveloper based in Karlsruhe, Germany." />
+    <SEO title="Elif Chorghay | Web Developer" description="Elif Chorghay &mdash; WebDeveloper based in Karlsruhe, Germany." />
     <section className="contain mb-32 md:mb-24 md:mt-20">
       <div className="inline-block bg-green-100 rounded px-4 py-2 mb-8 shadow-inner">
         <div className="flex items-center">
