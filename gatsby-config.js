@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Elif Tabak Chorghay`,
-    description: ``,
+    title: `Elif Chorghay`,
+    siteUrl: `https://elifchorghay.netlify.app/`,
+    description: `Frontend Developer with a specialized focus in fintech and e-commerce.`,
     author: `@elifchorghay`,
   },
   plugins: [
@@ -18,13 +19,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `Elif Chorghay`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/icon1.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon1.png`,
       },
     },
     {
@@ -40,10 +41,12 @@ module.exports = {
         develop: false,
         tailwind: true
       }
-    }
-
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`,
+      },
+    },
   ],
 }

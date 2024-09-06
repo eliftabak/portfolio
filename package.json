@@ -1,9 +1,9 @@
 {
   "name": "portfolio",
   "private": true,
-  "description": "Elif Tabak's 2020 Portfolio",
+  "description": "Elif Chorghay's 2023 Portfolio",
   "version": "0.1.0",
-  "author": "Elif Tabak <eliftabak01@gmail.com>",
+  "author": "Elif Chorghay <elifchorghay@gmail.com>",
   "dependencies": {
     "autoprefixer": "^9.8.0",
     "gatsby": "^4.25.7",
@@ -14,7 +14,9 @@
     "gatsby-plugin-postcss": "^2.3.1",
     "gatsby-plugin-purgecss": "^5.0.0",
     "gatsby-plugin-react-helmet": "^3.3.1",
+    "gatsby-plugin-robots-txt": "^1.6.10",
     "gatsby-plugin-sharp": "^2.6.3",
+    "gatsby-plugin-sitemap": "^6.13.1",
     "gatsby-source-filesystem": "^2.3.3",
     "gatsby-transformer-sharp": "^2.5.2",
     "prop-types": "^15.7.2",
